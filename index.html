@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eventia — Event Management</title>
+  <meta name="description" content="Eventia: Modern event management with ticketing, check-in, and analytics.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<nav id="mainNav" class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm py-3">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html"><span class="brand-icon me-2">✦</span>Eventia</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item ms-lg-2"><a class="btn btn-primary rounded-pill px-4" href="#get-started">Get Started</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header class="hero-section pt-7 pb-6" id="home">
+  <div class="container position-relative">
+    <div class="row align-items-center">
+      <div class="col-lg-6" data-aos="fade-up">
+        <span class="badge rounded-pill text-bg-primary-soft mb-3">New</span>
+        <h1 class="display-4 fw-bold lh-tight mb-3">Host unforgettable events with <span class="gradient-text">Eventia</span></h1>
+        <p class="lead text-secondary mb-4">All-in-one event management: ticketing, on-site check-in, schedules, and analytics. Designed to be beautiful, fast, and easy.</p>
+        <div class="d-flex gap-3">
+          <a href="#features" class="btn btn-primary btn-lg rounded-pill px-4">Explore Features</a>
+          <a href="about.html" class="btn btn-outline-primary btn-lg rounded-pill px-4">Why Eventia?</a>
+        </div>
+        <div class="d-flex align-items-center gap-4 mt-4">
+          <div class="d-flex align-items-center gap-2"><i class="bi bi-people-fill"></i><span>50k+ attendees</span></div>
+          <div class="d-flex align-items-center gap-2"><i class="bi bi-shield-check"></i><span>Secure ticketing</span></div>
+        </div>
+      </div>
+      <div class="col-lg-6 text-center" data-aos="zoom-in">
+        <div class="hero-card shadow-lg rounded-4 p-3">
+          <img class="img-fluid rounded-4 hero-img" alt="Event crowd"
+  src="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1200">
+          <div class="hero-floating card border-0 shadow-lg rounded-4 p-3">
+            <div class="d-flex align-items-center gap-3">
+              <div class="avatar bg-primary-subtle text-primary-emphasis rounded-circle d-flex align-items-center justify-content-center">🎫</div>
+              <div>
+                <div class="fw-semibold">Tickets sold today</div>
+                <div class="h5 mb-0"><span class="countup" data-target="1284">0</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-floating-2 card border-0 shadow-lg rounded-4 p-3">
+            <div class="d-flex align-items-center gap-3">
+              <div class="avatar bg-success-subtle text-success-emphasis rounded-circle d-flex align-items-center justify-content-center">⭐</div>
+              <div>
+                <div class="fw-semibold">Avg. rating</div>
+                <div class="h5 mb-0">4.9/5</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="features" class="py-6">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+        <span class="section-eyebrow">Features</span>
+        <h2 class="fw-bold">Everything you need to run your event</h2>
+        <p class="text-secondary">From registrations to real-time insights—manage your event lifecycle end to end.</p>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+        <div class="feature-card p-4 h-100">
+          <div class="icon-badge"><i class="bi bi-ticket-perforated"></i></div>
+          <h5 class="mt-3">Smart Ticketing</h5>
+          <p class="mb-0 text-secondary">Tiered pricing, promo codes, QR-based check-in, and instant receipts.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="feature-card p-4 h-100">
+          <div class="icon-badge"><i class="bi bi-phone-flip"></i></div>
+          <h5 class="mt-3">Mobile Check‑in</h5>
+          <p class="mb-0 text-secondary">Scan QR codes, view attendee status, and sync in real-time.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="feature-card p-4 h-100">
+          <div class="icon-badge"><i class="bi bi-bar-chart-line"></i></div>
+          <h5 class="mt-3">Analytics</h5>
+          <p class="mb-0 text-secondary">Track sales, engagement, NPS, and session occupancy at a glance.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="feature-card p-4 h-100">
+          <div class="icon-badge"><i class="bi bi-magic"></i></div>
+          <h5 class="mt-3">Automation</h5>
+          <p class="mb-0 text-secondary">Automated reminders, waitlists, certificates, and post‑event surveys.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="events" class="py-6 bg-light">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-end mb-4">
+      <div>
+        <span class="section-eyebrow">Upcoming</span>
+        <h3 class="fw-bold">Featured Events</h3>
+      </div>
+      <a class="link-underline link-underline-opacity-0 link-primary" href="#">View all</a>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+        <div class="event-card card border-0 shadow-sm h-100">
+          <div class="ratio ratio-16x9 overflow-hidden">
+            <img class="object-fit-cover" alt="Tech Summit"
+  src="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1200">
+</div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <span class="badge event-badge">Conference</span>
+              <span class="text-secondary small"><i class="bi bi-geo-alt"></i> Karachi</span>
+            </div>
+            <h5 class="card-title">Tech Summit Pakistan</h5>
+            <p class="card-text text-secondary">Two days of talks on AI, startups, and product growth.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="small text-secondary"><i class="bi bi-calendar-event"></i> Oct 12, 2025</span>
+              <a class="btn btn-outline-primary btn-sm rounded-pill" href="#">Get Tickets</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="event-card card border-0 shadow-sm h-100">
+          <div class="ratio ratio-16x9 overflow-hidden">
+            <img class="object-fit-cover" alt="Music Fest"
+  src="https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1200">
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <span class="badge event-badge">Music</span>
+              <span class="text-secondary small"><i class="bi bi-geo-alt"></i> Lahore</span>
+            </div>
+            <h5 class="card-title">Aurora Music Night</h5>
+            <p class="card-text text-secondary">Live bands, food stalls, and immersive light shows.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="small text-secondary"><i class="bi bi-calendar-event"></i> Nov 2, 2025</span>
+              <a class="btn btn-outline-primary btn-sm rounded-pill" href="#">Get Tickets</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="event-card card border-0 shadow-sm h-100">
+          <div class="ratio ratio-16x9 overflow-hidden">
+           <img alt="Design workshop"
+     src="https://images.pexels.com/photos/3184321/pexels-photo-3184321.jpeg?auto=compress&cs=tinysrgb&w=1200">
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <span class="badge event-badge">Workshop</span>
+              <span class="text-secondary small"><i class="bi bi-geo-alt"></i> Islamabad</span>
+            </div>
+            <h5 class="card-title">Design Systems 101</h5>
+            <p class="card-text text-secondary">Hands-on session to build delightful design systems.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="small text-secondary"><i class="bi bi-calendar-event"></i> Dec 8, 2025</span>
+              <a class="btn btn-outline-primary btn-sm rounded-pill" href="#">Get Tickets</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-6">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6" data-aos="fade-right">
+        <img class="img-fluid rounded-4 shadow-sm" alt="Dashboard"
+  src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1200">
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <span class="section-eyebrow">Why Eventia</span>
+        <h3 class="fw-bold">Designed for scale & simplicity</h3>
+        <ul class="list-unstyled mt-3">
+          <li class="d-flex gap-2 align-items-start"><i class="bi bi-check2-circle text-success fs-5"></i><span>Built with Bootstrap 5 & modern, accessible UI patterns.</span></li>
+          <li class="d-flex gap-2 align-items-start"><i class="bi bi-check2-circle text-success fs-5"></i><span>Mobile‑first layouts with smooth animations (AOS).</span></li>
+          <li class="d-flex gap-2 align-items-start"><i class="bi bi-check2-circle text-success fs-5"></i><span>Reusable components: cards, badges, CTA blocks, and more.</span></li>
+          <li class="d-flex gap-2 align-items-start"><i class="bi bi-check2-circle text-success fs-5"></i><span>Optimized spacing, consistent grid, pixel‑perfect alignments.</span></li>
+        </ul>
+        <a id="get-started" href="contact.html" class="btn btn-primary rounded-pill px-4 mt-3">Start a Project</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-6 bg-gradient-primary text-white">
+  <div class="container">
+    <div class="row text-center g-4">
+      <div class="col-6 col-lg-3" data-aos="flip-up">
+        <div class="h2 fw-bold"><span class="countup" data-target="120">0</span>+</div>
+        <div class="text-white-50">Events Launched</div>
+      </div>
+      <div class="col-6 col-lg-3" data-aos="flip-up" data-aos-delay="100">
+        <div class="h2 fw-bold"><span class="countup" data-target="50">0</span>K+</div>
+        <div class="text-white-50">Tickets Sold</div>
+      </div>
+      <div class="col-6 col-lg-3" data-aos="flip-up" data-aos-delay="200">
+        <div class="h2 fw-bold"><span class="countup" data-target="98">0</span>%</div>
+        <div class="text-white-50">Satisfaction</div>
+      </div>
+      <div class="col-6 col-lg-3" data-aos="flip-up" data-aos-delay="300">
+        <div class="h2 fw-bold"><span class="countup" data-target="24">0</span>/7</div>
+        <div class="text-white-50">Support</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" class="py-6">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-lg-8 mx-auto text-center">
+        <span class="section-eyebrow">Testimonials</span>
+        <h3 class="fw-bold">Loved by hosts & attendees</h3>
+      </div>
+    </div>
+    <div id="quoteCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner rounded-4 shadow-sm">
+        <div class="carousel-item active p-5 bg-light" data-bs-interval="5000">
+          <blockquote class="blockquote text-center">
+            <p class="lead">“Eventia made our festival seamless—from online sales to on‑site scanning.”</p>
+            <footer class="blockquote-footer mt-3">Aisha, Festival Director</footer>
+          </blockquote>
+        </div>
+        <div class="carousel-item p-5 bg-light" data-bs-interval="5000">
+          <blockquote class="blockquote text-center">
+            <p class="lead">“Beautiful UI, powerful features. Our NPS jumped from 56 to 74.”</p>
+            <footer class="blockquote-footer mt-3">Hassan, Ops Lead</footer>
+          </blockquote>
+        </div>
+        <div class="carousel-item p-5 bg-light" data-bs-interval="5000">
+          <blockquote class="blockquote text-center">
+            <p class="lead">“Best analytics dashboard we've used—actionable and real‑time.”</p>
+            <footer class="blockquote-footer mt-3">Sara, Product Manager</footer>
+          </blockquote>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#quoteCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#quoteCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+<footer class="pt-5 pb-4 mt-5 bg-dark text-light position-relative overflow-hidden">
+  <div class="decor-blur"></div>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <h5 class="fw-bold">Eventia</h5>
+        <p class="text-white-50">Plan, promote, and power your events with ticketing, check-in, and real-time analytics.</p>
+        <div class="d-flex gap-3">
+          <a href="#" class="text-light-emphasis social-link"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light-emphasis social-link"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="text-light-emphasis social-link"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-light-emphasis social-link"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <h6 class="text-uppercase text-white-50">Company</h6>
+        <ul class="list-unstyled">
+          <li><a href="about.html" class="footer-link">About</a></li>
+          <li><a href="#features" class="footer-link">Features</a></li>
+          <li><a href="#events" class="footer-link">Events</a></li>
+          <li><a href="#faq" class="footer-link">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <h6 class="text-uppercase text-white-50">Contact</h6>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-geo-alt me-2"></i> 221B Market Street, Lahore</li>
+          <li><i class="bi bi-envelope me-2"></i> hello@eventia.site</li>
+          <li><i class="bi bi-telephone me-2"></i> +92 301 2345678</li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <h6 class="text-uppercase text-white-50">Newsletter</h6>
+        <form class="newsletter-form" id="newsletterForm">
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Email address" required>
+            <button class="btn btn-primary" type="submit">Join</button>
+          </div>
+          <small class="text-white-50 d-block mt-2">We respect your privacy.</small>
+        </form>
+      </div>
+    </div>
+    <div class="border-top border-secondary-subtle mt-4 pt-3 d-flex justify-content-between align-items-center">
+      <small class="text-white-50">&copy; <span id="year"></span> Eventia. All rights reserved.</small>
+      <small class="text-white-50">Made with <span class="text-danger">♥</span> & Bootstrap 5</small>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
